@@ -171,6 +171,7 @@ def mostrar_postulante(codigo):
 def agregar_postulante():
     #Recojo los datos del form
 
+    codigo = request.form['codigo']
     apellido = request.form['apellido']
     nombre = request.form['nombre']
     correo = request.form['correo']
